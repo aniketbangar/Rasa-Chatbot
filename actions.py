@@ -12,14 +12,14 @@ import pandas as pd
 
 # Zomato Config start
 
-config={"user_key":"f64b88dca3c3d7fb0c1286350b6369e1"} #Enter Zomato token
+config={"user_key":""} #Enter Zomato token
 zomato = zomatopy.initialize_app(config)
 # Zomato Config end
 
 # Email Config start
 def Config():
-	gmail_user = 'bangaraniket@gmail.com' # Gmail Username
-	gmail_pwd = 'vkszmdejepdrtcur' #APP Password
+	gmail_user = '' # Gmail Username
+	gmail_pwd = '' #APP Password
 	gmail_config = (gmail_user, gmail_pwd)
 	return gmail_config
 # Email Config end
